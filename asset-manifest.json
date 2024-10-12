@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/leadgen-online-shopping/static/css/main.2d3f91eb.css",
+    "main.js": "/leadgen-online-shopping/static/js/main.edebd842.js",
+    "static/media/travel-slider-02.jpg": "/leadgen-online-shopping/static/media/travel-slider-02.9edf5b2989146ed876fa.jpg",
+    "static/media/travel-slider-01.jpg": "/leadgen-online-shopping/static/media/travel-slider-01.936db697e0fa0b08a6a8.jpg",
+    "static/media/travel-slider-03.jpg": "/leadgen-online-shopping/static/media/travel-slider-03.c17365117eb0a01272a4.jpg",
+    "index.html": "/leadgen-online-shopping/index.html",
+    "main.2d3f91eb.css.map": "/leadgen-online-shopping/static/css/main.2d3f91eb.css.map",
+    "main.edebd842.js.map": "/leadgen-online-shopping/static/js/main.edebd842.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d3f91eb.css",
+    "static/js/main.edebd842.js"
+  ]
+}
