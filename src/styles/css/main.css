@@ -164,6 +164,7 @@ header nav.scroll {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: background-image ease-in-out 1s;
 }
 #home > div {
   height: 100%;
@@ -282,6 +283,112 @@ header nav.scroll {
 
 #home.hero-three {
   background-image: url("../../images/travel-slider-03.jpg");
+}
+
+main > section:nth-child(1) {
+  padding: 50px 0;
+}
+main > section:nth-child(1) > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1190px;
+  margin: 0 auto;
+  gap: 30px;
+}
+main > section:nth-child(1) > div:nth-child(1) > div {
+  width: 33.3%;
+  display: flex;
+  align-items: center;
+}
+main > section:nth-child(1) > div:nth-child(1) > div > div:nth-child(1) span {
+  font-size: 45px;
+  line-height: 50px;
+  color: #e74948;
+  padding-right: 20px;
+}
+main > section:nth-child(1) > div:nth-child(1) > div > div:nth-child(2) span {
+  color: #848484;
+  font-size: 14px;
+  line-height: 24px;
+}
+main > section:nth-child(1) > div:nth-child(1) > div > div:nth-child(2) h3 {
+  color: #282828;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+main > section:nth-child(2) > div {
+  padding: 0 15px;
+  display: flex;
+  gap: 30px;
+  width: 100%;
+}
+main > section:nth-child(2) > div a {
+  width: 33.3%;
+}
+main > section:nth-child(2) > div a img {
+  width: 100%;
+}
+main > section:nth-child(3) {
+  padding: 110px 0;
+}
+main > section:nth-child(3) h2 {
+  text-align: center;
+  color: #282828;
+  font-size: 35px;
+  line-height: 39px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+main > section:nth-child(3) > div {
+  width: 1190px;
+  display: flex;
+  margin: 0 auto;
+  gap: 30px;
+}
+main > section:nth-child(3) > div > div {
+  width: 25%;
+  text-align: center;
+}
+main > section:nth-child(3) > div > div > a:nth-child(1) {
+  width: 100%;
+}
+main > section:nth-child(3) > div > div > a:nth-child(1) img {
+  width: 100%;
+  margin-bottom: 12%;
+}
+main > section:nth-child(3) > div > div > a:nth-child(2) {
+  color: black;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+main > section:nth-child(3) > div > div > div:nth-child(3) {
+  color: #848484;
+  font-size: 12px;
+  line-height: 20px;
+}
+main > section:nth-child(3) > div > div > div:nth-child(4) {
+  color: #e7403a;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 5.5%;
+}
+main > section:nth-child(3) > div > div > a:nth-child(5) {
+  font-size: 11px;
+  line-height: 18px;
+  padding: 7.4px 15.325px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background-color: #686868;
+  border-radius: 4px;
+}
+main > section:nth-child(3) > div > div > a:nth-child(5):hover {
+  background-color: #959595;
 }
 
 /*# sourceMappingURL=main.css.map */

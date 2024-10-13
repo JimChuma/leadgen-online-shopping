@@ -1,6 +1,15 @@
 import { useEffect, useState } from "react";
 import logo from "../images/logo-leadgen.png";
 import "../styles/css/main.css";
+import FeatureBox from "../components/home/FeatureBox";
+import agencyWork1 from "../images/agency-work-06.jpg";
+import agencyWork2 from "../images/agency-work-08.jpg";
+import agencyWork3 from "../images/agency-work-03.jpg";
+import TopFeature from "../components/home/TopFeature";
+import productImg1 from "../images/product-img-01.jpg";
+import productImg2 from "../images/product-img-02.jpg";
+import productImg3 from "../images/product-img-03.jpg";
+import productImg4 from "../images/product-img-04.jpg";
 
 export default function Home() {
   const [heroSlide, setHeroSlide] = useState(0);
@@ -17,7 +26,7 @@ export default function Home() {
           setHeroSlide(0);
         }
       }
-    }, 3500);
+    }, 8000);
 
     return () => clearTimeout(timer);
   }, [heroSlide, autoplay]);
@@ -119,6 +128,80 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <main>
+        <section>
+          <div>
+            <FeatureBox
+              icon="ti-thumb-up"
+              smallText="We guarantee you"
+              bigText="100% original products"
+            />
+            <FeatureBox
+              icon="ti-credit-card"
+              smallText="We accept visa and mastercard"
+              bigText="Payment options"
+            />
+            <FeatureBox
+              icon="ti-headphone-alt"
+              smallText="Amazing customer service"
+              bigText="Customer service"
+            />
+          </div>
+        </section>
+
+        <section>
+          <div>
+            <a href="">
+              <img src={agencyWork1} alt="" />
+            </a>
+            <a href="">
+              <img src={agencyWork2} alt="" />
+            </a>
+            <a href="">
+              <img src={agencyWork3} alt="" />
+            </a>
+          </div>
+        </section>
+
+        <section>
+          <h2>New Arrivals</h2>
+          <div>
+            <TopFeature
+              link=""
+              image={productImg1}
+              imageAlt=""
+              title="Black Stripes Coat"
+              category="Clothing, Man"
+              price="$399"
+            />
+            <TopFeature
+              link=""
+              image={productImg2}
+              imageAlt=""
+              title="Navy Silk Coat"
+              category="Clothing, Man"
+              price="$299"
+            />
+            <TopFeature
+              link=""
+              image={productImg3}
+              imageAlt=""
+              title="Summer Fashion T-Shirt"
+              category="Clothing, Man"
+              price="$249"
+            />
+            <TopFeature
+              link=""
+              image={productImg4}
+              imageAlt=""
+              title="Formal Raincoat"
+              category="Clothing, Man"
+              price="$499"
+            />
+          </div>
+        </section>
+      </main>
     </>
   );
 }
